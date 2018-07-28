@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.edutech.app.activities.Feedback">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f2eded"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/feedback_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your feedback here"
+                android:textColor="#000"
+                android:textColorHint="#6d6262"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f2eded"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/mail_editext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your mail/phone here"
+                android:textColor="#000"
+                android:textColorHint="#6d6262"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/submit_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

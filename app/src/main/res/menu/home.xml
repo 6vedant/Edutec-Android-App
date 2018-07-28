@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_shareapp"
+        android:orderInCategory="100"
+        android:title="Share App"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_rateapp"
+        android:orderInCategory="100"
+        android:title="Rate App"
+        app:showAsAction="never" />
+    <item
+        android:visible="false"
+        android:id="@+id/action_profile"
+        android:orderInCategory="100"
+        android:title="Profile"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:title="Help"
+        app:showAsAction="never" />
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_feedback"
+        android:orderInCategory="100"
+        android:title="Feedback"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_termsconditions"
+        android:orderInCategory="100"
+        android:title="Terms &amp; Conditions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_privacypoliceise"
+        android:orderInCategory="100"
+        android:title="Privacy Policies"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_developers"
+        android:orderInCategory="100"
+        android:title="Developers"
+        android:visible="false"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_exitapp"
+        android:orderInCategory="100"
+        android:title="Exit App"
+        app:showAsAction="never" />
+</menu>

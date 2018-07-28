@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_privacypolicies"
+    android:layout_height="match_parent"
+    tools:context="com.edutech.app.activities.PrivacyPolicies">
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/first_para"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:textColorHighlight="#000"
+                    android:textColorHint="#000"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/second_para"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="2dp"
+                    android:textColorHighlight="#000"
+                    android:textColorHint="#000"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/third_para"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="2dp"
+                    android:textColorHighlight="#000"
+                    android:textColorHint="#000"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/fourth_para"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="2dp"
+                    android:textColorHighlight="#000"
+                    android:textColorHint="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/fivth_para"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="2dp"
+                    android:textColorHighlight="#000"
+                    android:textColorHint="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/sixth_para"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="2dp"
+                    android:textColorHighlight="#000"
+                    android:textColorHint="#000"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:id="@+id/seventh_para"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="2dp"
+                    android:textColorHighlight="#000"
+                    android:textColorHint="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/eighth_para"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:padding="2dp"
+                    android:textColorHighlight="#000"
+                    android:textColorHint="#000"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+
+</RelativeLayout>

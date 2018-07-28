@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="8dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#fff"
+        android:elevation="8dp"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Activation"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="italic|bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ddd1d1"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edittex_phoneemail_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:hint="Enter Phone Number"
+                    android:inputType="phone"
+                    android:maxLines="5"
+                    android:minLines="1"
+                    android:textColor="#000"
+                    android:textColorHint="#0c0b31"
+                    android:textSize="20sp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ddd1d1"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edittext_key_entered"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:hint="Enter Activation Key"
+                    android:inputType="textPostalAddress"
+                    android:maxLines="5"
+                    android:minLines="1"
+                    android:textColor="#000"
+                    android:textColorHint="#0c0b31"
+                    android:textSize="20sp"
+
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/submit_checkkey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="60dp"
+                    android:background="#b8abab"
+                    android:gravity="center"
+                    android:text="Submit"
+                    android:textColor="#000"
+                    android:textSize="25sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.edutech.app.subActivities.ShopsActivityDetails">
+
+    <LinearLayout
+        android:id="@+id/slider_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider_shops"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="10dp"
+            custom:auto_cycle="true"
+            custom:indicator_visibility="visible"
+            custom:pager_animation="Accordion"
+            custom:pager_animation_span="1100" />
+
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/custom_indicator2"
+            style="@style/AndroidImageSlider_Corner_Oval_Orange"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slider_layout"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/details_shop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="8dp"
+                    custom:cardBackgroundColor="#fff">
+
+                    <TextView
+                        android:id="@+id/textviewdetails_shops"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Something"
+                        android:textSize="16sp"/>
+                </android.support.v7.widget.CardView>
+
+                <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/callphone_here"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="#df0c0c">
+
+        <TextView
+            android:id="@+id/call_textviewshops"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:scrollbarSize="24sp"
+            android:shadowColor="#000"
+            android:text="Call"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</RelativeLayout>

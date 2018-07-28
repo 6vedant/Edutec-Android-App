@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.edutech.app.subActivities.SignEmail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/name_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter name"
+            android:textSize="20sp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/email_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter mail"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"
+            android:textSize="20sp"
+            android:inputType="textWebPassword" />
+
+        <LinearLayout
+            android:id="@+id/signup_button_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="25dp"
+            android:background="#b7acac"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textSize="20sp"
+                android:text="Sign Up"
+                android:textColor="#000" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

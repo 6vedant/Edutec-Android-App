@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent"
+    tools:context="com.edutech.app.subActivities.PhoneAuth">
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:src="@drawable/logo"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textColorHint="#38373c"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignStart="@+id/phone_number_editext"
+        android:layout_marginTop="34dp" />
+
+
+    <EditText
+        android:id="@+id/phone_number_editext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textColorHint="#38373c"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/name_edittext"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/phone_verify_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Verify"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight="#000"
+        android:textSize="18sp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="55dp" />
+
+</RelativeLayout>

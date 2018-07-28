@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            ></LinearLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sdcard" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="1. Please Insert Edutec Content Card in your memory slot."
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="OR"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="22sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></LinearLayout>
+
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sth" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:text="2. Copy Edutec content package into your phone memory"
+
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="* Note: Content card/Package can be bought from our vendors"
+        android:gravity="left"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>

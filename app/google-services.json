@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "663270877672",
+    "firebase_url": "https://edutech-c68e5.firebaseio.com",
+    "project_id": "edutech-c68e5",
+    "storage_bucket": "edutech-c68e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663270877672:android:a61e2c1a75063376",
+        "android_client_info": {
+          "package_name": "com.edutech.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663270877672-4uosjvnkp301qb9s1ncon2u5pqlj6j5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edutech.app",
+            "certificate_hash": "facaec5796f86db1b53f8818dbbb8e9de7b7ef0b"
+          }
+        },
+        {
+          "client_id": "663270877672-8bpdag1ad5ipiivcgp1gccluf5ep0rdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOBF4mm5Sib0gSbuRXocNu1LO1HFNUFuU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663270877672-8bpdag1ad5ipiivcgp1gccluf5ep0rdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663270877672:android:78e08c8f6ad22413",
+        "android_client_info": {
+          "package_name": "com.edutech.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663270877672-huevo1c7mhdlcd7c0e8ume2pfvvb22l2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edutech.app",
+            "certificate_hash": "473d601db57288fac2b855befd5e02ed8c82ee23"
+          }
+        },
+        {
+          "client_id": "663270877672-p0c97rg6rj8f1uj18aslrhe6j7j092va.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edutech.app",
+            "certificate_hash": "18ae0cd191da61f4943afa3afab2639280752cb9"
+          }
+        },
+        {
+          "client_id": "663270877672-8bpdag1ad5ipiivcgp1gccluf5ep0rdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOBF4mm5Sib0gSbuRXocNu1LO1HFNUFuU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663270877672-8bpdag1ad5ipiivcgp1gccluf5ep0rdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
